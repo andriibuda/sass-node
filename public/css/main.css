@@ -1,0 +1,18 @@
+h1 {
+  color: red; }
+
+ul {
+  font-size: 16px; }
+  ul a {
+    color: #5e06cd; }
+    ul a:hover {
+      color: red; }
+
+.btn, .warning, .caution, .success {
+  border-radius: 5px;
+  color: #0062ff;
+  background-color: rgba(0, 98, 255, 0.5);
+  border: 1x solid #0062ff; }
+
+.success {
+  color: #5e06cd; }

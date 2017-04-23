@@ -1,0 +1,40 @@
+$color: red;
+$color2: #5e06cd;
+$btn_color: #0062ff;
+$text_dark_color: #000;
+$text_light_color: #fff;
+
+h1 {
+    color: $color;
+}
+
+ul {
+    font-size: 16px;
+    a {
+        color: $color2;
+        &:hover {
+            color: $color;
+        }
+    }    
+}
+
+.btn {
+    border-radius: 5px;
+    color: $btn_color;
+    background-color: transparentize($btn_color, 0.5);
+    border: 1x solid $btn_color;
+}
+
+.warning {
+    @extend .btn;
+}
+
+.success {
+    @extend .btn;
+    color: $color2;
+}
+
+
+.caution {
+    @extend .warning;
+}
